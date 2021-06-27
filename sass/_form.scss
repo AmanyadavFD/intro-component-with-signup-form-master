@@ -1,0 +1,62 @@
+.forms {
+  background-color: #fff;
+  padding: 4rem 3rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  box-shadow: 0 0.6rem 0rem rgba($Neutral-dark-blue, 0.4);
+  &__inputBox {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  &__input {
+    width: 100%;
+    padding: 1.4rem 2rem;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid $Neutral-grayish-blue;
+    transition: border-color 0.7s;
+    &:focus {
+      border-color: $Accent-blue;
+    }
+  }
+  &__icon {
+    position: absolute;
+    right: 3rem;
+    top: 1.2rem;
+    // display: none;
+    opacity: 0;
+  }
+  &__small {
+    color: $Primary-red;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    position: absolute;
+    top: 48px;
+    right: 0;
+  }
+  &__btn {
+    width: 100%;
+    padding: 1.4rem 2rem;
+    border: none;
+    background-color: $Primary-green;
+    color: #fff;
+    font-size: 1.8rem;
+    border-bottom: 5px solid #1f5a41;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  &__termAndService {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $Neutral-grayish-blue;
+    text-align: center;
+    display: block;
+  }
+  &__strongText {
+    color: $Primary-red;
+  }
+}
